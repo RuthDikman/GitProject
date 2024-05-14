@@ -1,0 +1,60 @@
+﻿#border {
+    position: absolute;
+    left: 30%;
+}
+.p{
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    color: rgb(102, 97, 97);
+    border: solid 4px #48b1bb;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 45%;
+    top: 7%;
+}
+.bGame{
+    background-color: #48b1bb;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.bGame:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+table{
+    font-size: 30px;
+    text-align: center;
+}
+td {
+    border: 4px solid #48b1bb;
+    padding: 0px;
+    height: 80px;
+}
+#a1, #a2 {
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+#points{
+    position: absolute;
+    top:20%;
+    font-family: 'Heebo';
+    font-size: 30px;
+    color: #48b1bb;
+
+}

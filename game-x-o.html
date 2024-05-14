@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="איקס-עיגול.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="button">
+    <button id="newGame" class="bGame" onclick="NewGame()">משחק חדש</button>
+    <button id="nextGame" class="bGame" onclick="NextGame()">משחק הבא</button>
+    </div>
+    <table>
+        <tr>
+            <td><input id="a1" type="text" placeholder="Player A"/></td>
+            <td><input id="a2" type="text" placeholder="Player B"/></td>
+        </tr>
+        <tr>
+            <td id="points1"></td>
+            <td id="points2"></td>
+        </tr>
+    </table>
+    <div id=text>
+    <p id=points></p>
+    </div>
+    <div id=border>
+    <input type="button" id="p0" onclick="Press(0)" value=" " class="p">
+    <input type="button" id="p1" onclick="Press(1)" value=" " class="p">
+    <input type="button" id="p2" onclick="Press(2)" value=" " class="p"><br />
+    <input type="button" id="p3" onclick="Press(3)" value=" " class="p">
+    <input type="button" id="p4" onclick="Press(4)" value=" " class="p">
+    <input type="button" id="p5" onclick="Press(5)" value=" " class="p"><br />
+    <input type="button" id="p6" onclick="Press(6)" value=" " class="p">
+    <input type="button" id="p7" onclick="Press(7)" value=" " class="p">
+    <input type="button" id="p8" onclick="Press(8)" value=" " class="p"><br />
+    </div>
+    <script src="איקס-עיגול.js"></script>
+</body>
+</html>
